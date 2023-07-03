@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/905.bbc1adfd.chunk.css","mappings":"AAAA,0BAEE,cAAe,CACf,eAAgB,CAFhB,iBAGF","sources":["components/pages/HomePage/HomePage.module.css"],"sourcesContent":[".homeText {\n  text-align: center;\n  font-size: 50px;\n  margin-top: 60px;\n}\n"],"names":[],"sourceRoot":""}
