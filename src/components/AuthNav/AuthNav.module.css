@@ -1,0 +1,23 @@
+.authNavWrap {
+  display: flex;
+  gap: 20px;
+}
+
+.authLink {
+  padding: 10px;
+  border-radius: 5px;
+
+  text-decoration: none;
+  color: #5f968e;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: inherit;
+
+  background-color: #bfdccf;
+  border: 1px solid #d5c9b1;
+}
+.authLink:hover,
+.authLink:focus {
+  background-color: #e05858;
+  color: #d5c9b1;
+}

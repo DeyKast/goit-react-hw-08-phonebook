@@ -1,0 +1,27 @@
+.navWrap {
+  display: flex;
+
+  gap: 20px;
+}
+
+.navLink {
+  padding: 10px;
+  border-radius: 5px;
+
+  text-decoration: none;
+  color: #5f968e;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: inherit;
+
+  background-color: #bfdccf;
+  border: 1px solid black;
+
+  transition: all linear 250ms;
+}
+.navLink:hover,
+.navLink:focus {
+  background-color: #e05858;
+  color: #d5c9b1;
+  border: 1px solid #d5c9b1;
+}

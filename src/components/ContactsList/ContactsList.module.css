@@ -1,0 +1,44 @@
+.contactList {
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 0;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 15px;
+
+  background-color: #bfdccf;
+}
+
+.itemName {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+
+  font-size: 20px;
+}
+
+.btnDelete {
+  width: 80px;
+  padding: 5px;
+  color: #000;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 250ms linear, box-shadow 250ms linear;
+}
+.btnDelete:hover,
+.btnDelete:focus {
+  background-color: #e05858;
+}
